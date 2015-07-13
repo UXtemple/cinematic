@@ -1,0 +1,70 @@
+{
+  "name": "cinematic",
+  "version": "0.1.0",
+  "description": "Cinematic on Panels",
+  "main": "index.js",
+  "scripts": {
+    "test": ".bin/test",
+    "prepublish": "if [ \"$NODE_ENV\" = production  ]; then .bin/compile; fi",
+    "postpublish": "if [ \"$NODE_ENV\" = production   ]; then .bin/clean; fi",
+    "start": ".bin/start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UXtemple/cinematic"
+  },
+  "keywords": [
+    "cinematic",
+    "panels",
+    "UXtemple"
+  ],
+  "author": "UXtemple <hi@uxtemple.com>",
+  "contributors": [
+    "Darío Javier Cravero <dario@uxtemple.com>",
+    "Tom Parandyk <tom@uxtemple.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UXtemple/cinematic/issues"
+  },
+  "homepage": "https://github.com/UXtemple/cinematic",
+  "dependencies": {
+    "invariant": "^2.1.0",
+    "node-uuid": "^1.4.3",
+    "panels-blocks": "^0.3.0",
+    "panels-runtime": "^0.2.0",
+    "panels-ui": "^0.4.0",
+    "react": "^0.14.0-beta1",
+    "react-dom": "^0.14.0-beta1",
+    "redux": "0.12.0",
+    "seamless-immutable": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel": "^5.5.7",
+    "babel-core": "^5.6.14",
+    "babel-eslint": "^3.1.15",
+    "babel-loader": "^5.2.2",
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "eslint": "^0.22.1",
+    "eslint-plugin-react": "^2.5.0",
+    "koa": "^0.21.0",
+    "koa-sendfile": "^1.1.1",
+    "koa-static": "^1.4.9",
+    "livereloadify": "^2.0.0",
+    "lodash": "^3.9.3",
+    "mocha": "^2.2.5",
+    "node-libs-browser": "^0.5.2",
+    "react-hot-loader": "^1.2.8",
+    "sinon": "^1.15.3",
+    "watchify": "^3.2.2",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "envify"
+    ]
+  }
+}

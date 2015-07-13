@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+.bin/server.es6 &
+.bin/webpack-server.es6
