@@ -1,5 +1,6 @@
 import { Panel } from 'panels-ui';
 import { Title } from 'panels-blocks';
+import List from './list';
 import React from 'react';
 
 export default class Projects {
@@ -7,6 +8,7 @@ export default class Projects {
     return (
       <Panel style={style.panel}>
         <Title style={style.title}>10000 Cinematic Flights</Title>
+        <List />
       </Panel>
     );
   }
