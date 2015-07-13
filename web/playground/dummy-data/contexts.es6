@@ -3,5 +3,5 @@ import i from 'seamless-immutable';
 import projects from '../../../projects/dummy-data';
 
 export default i({
-  'cinematica.com.dev:3000': createApp({projects})
+  '10000cinematicflights.com.dev:3000': createApp({projects})
 });

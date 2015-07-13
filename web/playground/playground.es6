@@ -8,10 +8,10 @@ const instance = createPanelsRuntime(DUMMY_DATA);
 ReactDOM.render(<instance.App />, document.getElementById('playground-container'));
 
 window.Playground = {
-  boxhouse() { return instance.redux.getState().contexts['cinematica.com.dev:3000'] },
+  boxhouse() { return instance.redux.getState().contexts['10000cinematicflights.com.dev:3000'] },
   instance
 };
 
-console.log('Welcome to boxhouse playground.');
-console.log('https://boxhouse.uxtemple.com');
+console.log('Welcome to 10000 Cinematic Flights playground.');
+console.log('https://10000cinematicflights.com');
 console.log('Playground module', Playground);

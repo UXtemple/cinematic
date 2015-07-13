@@ -6,7 +6,7 @@ export default class Projects {
   render() {
     return (
       <Panel style={style.panel}>
-        <Title style={style.title}>Cinematica projects</Title>
+        <Title style={style.title}>10000 Cinematic Flights</Title>
       </Panel>
     );
   }
