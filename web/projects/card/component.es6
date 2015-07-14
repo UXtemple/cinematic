@@ -33,9 +33,9 @@ const style = {
         backgroundColor: 'rgba(255, 131, 0, 0.85)',
         borderRadius: 170,
         color: '#f2f2f2',
-        height: '55vw',
+        height: '320px',
         //justifyContent: 'center',
-        width: '55vw'
+        width: '320px'
       }
     },
     icon: {
@@ -57,12 +57,13 @@ const style = {
   main: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: '7vw',
+    marginLeft: '60px',
+    marginRight: '10px',
     flex: 1
   },
   map: {
     //height: 100,
-    width: '40vw'
+    width: '200px'
   },
   subtitle: {
    // fontSize: '0.65em',
