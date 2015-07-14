@@ -1,13 +1,14 @@
 import { Panel } from 'panels-ui';
-import { Title } from 'panels-blocks';
+//import { Title } from 'panels-blocks';
 import List from './list';
+import Message from '../icons/message';
 import React from 'react';
 
 export default class Projects {
   render() {
     return (
       <Panel style={style.panel}>
-        <Title style={style.title}>10000 Cinematic Flights</Title>
+        <Message style={style.message}/>
         <List />
       </Panel>
     );
@@ -16,15 +17,13 @@ export default class Projects {
 
 const style = {
   panel: {
-    //backgroundColor: '#323232',
+    backgroundColor: '#f2f2f2',
     paddingBottom: 100,
     maxWidth: 360,
     width: '100vw'
   },
-  title: {
+  message: {
     alignSelf: 'center',
-    color: 'white',
-    fontSize: 30,
-    margin: '25px 0px 0px'
+    margin: '10px 0 10px 0'
   }
 };
