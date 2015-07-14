@@ -2,6 +2,7 @@ import { Panel } from 'panels-ui';
 //import { Title } from 'panels-blocks';
 import List from './list';
 import Message from '../icons/message';
+import Logo from '../icons/logo';
 import React from 'react';
 
 export default class Projects {
@@ -28,6 +29,7 @@ export default class Projects {
           </div>
         </div>
         <List />
+        <Logo style={style.logo}/>
       </Panel>
     );
   }
@@ -59,6 +61,10 @@ const style = {
   labels: {
     flexDirection: 'row',
     justifyContent: 'space-between'
+  },
+  logo: {
+    alignSelf: 'center',
+    marginTop: '70px'
   },
   panel: {
     backgroundColor: '#f2f2f2',
