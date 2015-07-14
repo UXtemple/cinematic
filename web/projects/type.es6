@@ -16,7 +16,7 @@ export default class Projects {
 
 const style = {
   panel: {
-    backgroundColor: '#323232',
+    //backgroundColor: '#323232',
     paddingBottom: 100,
     maxWidth: 360,
     width: '100vw'

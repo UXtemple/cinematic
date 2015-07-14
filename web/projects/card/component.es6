@@ -1,21 +1,21 @@
 // import { actions as boxesActiveActions } from '../../../boxes-active';
 import { ActionWithIcon } from 'panels-blocks';
 import ArrowIcon from '../../icons/arrow';
-import MallorcaMap from '../../icons/arrow';
+import MallorcaMap from '../../icons/mallorcamap';
 import React from 'react';
 
 export default class Action {
   render() {
-    const { id, name } = this.props.project;
+    const { id, name, subtitle } = this.props.project;
     // const setActiveBox = () => this.props.dispatch(boxesActiveActions.set(id));
     // onClick={setActiveBox}
 
     return (
       <ActionWithIcon href={id} icon={ArrowIcon} style={style.action}>
         <div style={style.main}>
-          <MallorcaMap style={style.map} width='100%' height='100%' />
-          <div>{name}</div>
-          <div>{name}</div>
+          <MallorcaMap style={style.map} />
+          <div style={style.name}>{name}</div>
+          <div style={style.subtitle}>{subtitle}</div>
         </div>
       </ActionWithIcon>
     );
@@ -30,11 +30,12 @@ const style = {
       base: {
         alignItems: 'center',
         alignSelf: 'center',
-        backgroundColor: 'orange',
+        backgroundColor: 'rgba(255, 131, 0, 0.85)',
         borderRadius: 170,
         color: '#f2f2f2',
-        height: '75vw',
-        width: '75vw'
+        height: '55vw',
+        //justifyContent: 'center',
+        width: '55vw'
       }
     },
     icon: {
@@ -50,12 +51,22 @@ const style = {
       marginLeft: 50
     }
   },
+  name: {
+    fontSize: '2em',
+  },
   main: {
     alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: '7vw',
     flex: 1
   },
   map: {
-    height: 100,
-    width: 100
+    //height: 100,
+    width: '40vw'
+  },
+  subtitle: {
+   // fontSize: '0.65em',
+//    fontWeight: 400,
+  //  textTransform: 'uppercase'
   }
 }
