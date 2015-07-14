@@ -57,7 +57,8 @@ const style = {
     textTransform: 'uppercase'
   },
   labels: {
-    flexDirection: 'row'
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   },
   panel: {
     backgroundColor: '#f2f2f2',
