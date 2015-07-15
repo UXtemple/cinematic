@@ -1,2 +1,2 @@
-export const ADD = 'PROJECTS:ADD';
-export const REMOVE = 'PROJECTS:REMOVE';
+export const ADD = 'CITIES:ADD';
+export const REMOVE = 'CITIES:REMOVE';

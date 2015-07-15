@@ -6,7 +6,7 @@ import { reducer as projects } from './projects';
 export default function createApp(initialData) {
   return createRedux({
     cities,
-    projects,
+    projects //,
     // videos
   }, initialData);
-};
+}

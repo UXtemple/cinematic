@@ -1,7 +1,7 @@
 import { ADD, REMOVE } from './action-types';
 import i from 'seamless-immutable';
 
-export default function projectsReducer(state = i({}), action) {
+export default function citiesReducer(state = i({}), action) {
   switch (action.type) {
     case ADD: return add(state, action.payload);
     case REMOVE: return remove(state, action.payload);

@@ -8,7 +8,7 @@ const instance = createPanelsRuntime(DUMMY_DATA);
 ReactDOM.render(<instance.App />, document.getElementById('playground-container'));
 
 window.Playground = {
-  boxhouse() { return instance.redux.getState().contexts['10000cinematicflights.com.dev:3000'] },
+  cinematic() { return instance.redux.getState().contexts['10000cinematicflights.com.dev:3000'] },
   instance
 };
 
