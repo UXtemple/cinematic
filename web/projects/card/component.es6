@@ -57,8 +57,8 @@ const style = {
   main: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: '60px',
-    marginRight: '10px',
+    // marginLeft: '60px',
+    // marginRight: '10px',
     flex: 1
   },
   map: {
