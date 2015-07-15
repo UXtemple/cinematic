@@ -2,12 +2,15 @@ import { ActionWithIcon } from 'panels-blocks';
 import ArrowIcon from '../../icons/arrow';
 import React from 'react';
 
-export default class Action {
+export default class CityCard {
   render() {
     const { id, name } = this.props.city;
 
+    let actionStyle = {...style.action};
+    actionStyle.action.base.backgroundImage = `url(/cities/${id}.jpg)`;
+
     return (
-      <ActionWithIcon href={id} icon={ArrowIcon} style={style.action}>
+      <ActionWithIcon href={id} icon={ArrowIcon} style={actionStyle}>
         <div style={style.main}>
           <div style={style.name}>{name}</div>
         </div>
@@ -16,7 +19,6 @@ export default class Action {
   }
 }
 
-
 const style = {
   action: {
     action: {
@@ -24,7 +26,7 @@ const style = {
       base: {
         alignItems: 'center',
         alignSelf: 'center',
-        backgroundColor: 'rgba(255, 131, 0, 0.85)',
+        // backgroundColor: 'rgba(255, 131, 0, 0.85)',
         borderRadius: 170,
         color: '#f2f2f2',
         height: '320px',
