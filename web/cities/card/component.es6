@@ -27,11 +27,12 @@ const style = {
         alignItems: 'center',
         alignSelf: 'center',
         // backgroundColor: 'rgba(255, 131, 0, 0.85)',
-        borderRadius: 170,
+        //borderRadius: 170,
         color: '#f2f2f2',
-        height: '320px',
-        //justifyContent: 'center',
-        width: '320px'
+        fontSize: '10px',
+        height: '150px',
+        //justifyContent: 'space-between',
+        width: '100%'
       }
     },
     icon: {
