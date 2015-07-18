@@ -1,55 +1,61 @@
 // import { actions as boxesActiveActions } from '../../../boxes-active';
-import { ActionWithIcon } from 'panels-blocks';
+import { Action } from 'panels-blocks';
 import ArrowIcon from '../../icons/arrow';
 import MallorcaMap from '../../icons/mallorcamap';
 import React from 'react';
 
-export default class Action {
+export default class ProjectCard {
   render() {
     const { id, name, subtitle } = this.props.project;
-    // const setActiveBox = () => this.props.dispatch(boxesActiveActions.set(id));
-    // onClick={setActiveBox}
 
     return (
-      <ActionWithIcon href={id} icon={ArrowIcon} style={style.action}>
-        <div style={style.main}>
+      <Action href={id} style={style.action}>
+        <div style={style.inner}>
           <MallorcaMap style={style.map} />
           <div style={style.name}>{name}</div>
           <div style={style.subtitle}>{subtitle}</div>
         </div>
-      </ActionWithIcon>
+        <ArrowIcon style={style.icon} />
+      </Action>
     );
   }
 }
 
+    // return (
+    //   <ActionWithIcon href={id} icon={ArrowIcon} style={style.action}>
+    //     <div style={style.main}>
+    //       <MallorcaMap style={style.map} />
+    //       <div style={style.name}>{name}</div>
+    //       <div style={style.subtitle}>{subtitle}</div>
+    //     </div>
+    //   </ActionWithIcon>
+    // );
+
 
 const style = {
   action: {
-    action: {
-      active: {},
-      base: {
-        alignItems: 'center',
-        alignSelf: 'center',
-        backgroundColor: 'rgba(255, 131, 0, 0.85)',
-        borderRadius: 170,
-        color: '#f2f2f2',
-        height: '320px',
-        //justifyContent: 'center',
-        width: '320px'
-      }
-    },
-    icon: {
-      base: {
-        style: {
-          alignSelf: 'center',
-          marginRight: 20
-        }
-      }
-    },
-    inner: {
+    active: {},
+    base: {
+      alignItems: 'center',
       flex: 1,
-      marginLeft: 50
+      alignSelf: 'center',
+      backgroundColor: 'rgba(255, 131, 0, 0.85)',
+      borderRadius: 170,
+      color: '#f2f2f2',
+      height: '320px',
+      //justifyContent: 'center',
+      width: '320px'
     }
+  },
+  icon: {
+    alignSelf: 'center',
+    marginRight: 20
+  },
+  inner: {
+    alignItems: 'center',
+    flexDirection: 'column',
+    flex: 1,
+    marginLeft: 50
   },
   name: {
     fontSize: '2em',
