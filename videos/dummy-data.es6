@@ -13,6 +13,7 @@ export default {
   },
   '3': {
     id: '3',
+    cityId: '2',
     name: 'The mountains',
     videoId: '108804752'
   }
