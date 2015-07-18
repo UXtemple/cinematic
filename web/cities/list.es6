@@ -1,14 +1,10 @@
-import CityCard from '../card';
-import cityShape from '../shape';
+import Card from './card';
+import cityShape from './shape';
 import React, { PropTypes } from 'react';
-
-const style = {
-  width: '100%'
-};
 
 export default class Cities {
   render() {
-    const cities = this.props.cities.map(({id}) => <CityCard key={id} id={id} />);
+    const cities = this.props.cities.map(city => <Card key={city.id} city={city} />);
 
     return <div style={style}>{cities}</div>;
   }
@@ -17,3 +13,7 @@ export default class Cities {
     cities: PropTypes.arrayOf(cityShape).isRequired
   }
 }
+
+const style = {
+  width: '100%'
+};

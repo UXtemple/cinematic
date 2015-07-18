@@ -1,12 +1,13 @@
 import { Action } from 'panels-blocks';
-import ArrowIcon from '../../icons/arrow';
+import ArrowIcon from '../icons/arrow';
+import cityShape from './shape';
 import React from 'react';
 
 export default class CityCard {
   render() {
     const { id, name } = this.props.city;
 
-    let actionStyle = {
+    const actionStyle = {
       active: style.action.active,
       ...{
         base: {
@@ -18,12 +19,16 @@ export default class CityCard {
 
     return (
       <Action href={id} style={actionStyle}>
-        <div style={style.inner}>
+        // <div style={style.inner}>
           <div style={style.name}>{name}</div>
-        </div>
+        // </div>
         <ArrowIcon style={style.icon} />
       </Action>
     );
+  }
+
+  static propTypes = {
+    city: cityShape.isRequired
   }
 }
 
@@ -57,4 +62,4 @@ const style = {
   name: {
     fontSize: '2em',
   }
-}
+};

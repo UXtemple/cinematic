@@ -1,3 +1,5 @@
+import objectToArray from '../utils/object-to-array';
+
 export function list(state) {
-  return Object.keys(state).map(k => state[k]);
+  return objectToArray(state);
 }
