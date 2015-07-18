@@ -4,7 +4,7 @@ import React from 'react';
 
 export default class Status {
   render() {
-    const progress = range(0, 10).map(() => <div style={style.progress}/>);
+    const progress = range(0, 10).map(i => <div key={i} style={style.progress}/>);
 
     return (
       <div>

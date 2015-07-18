@@ -21,17 +21,6 @@ export default class ProjectCard {
   }
 }
 
-    // return (
-    //   <ActionWithIcon href={id} icon={ArrowIcon} style={style.action}>
-    //     <div style={style.main}>
-    //       <MallorcaMap style={style.map} />
-    //       <div style={style.name}>{name}</div>
-    //       <div style={style.subtitle}>{subtitle}</div>
-    //     </div>
-    //   </ActionWithIcon>
-    // );
-
-
 const style = {
   action: {
     active: {},
