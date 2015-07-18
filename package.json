@@ -30,6 +30,7 @@
   "homepage": "https://github.com/UXtemple/cinematic",
   "dependencies": {
     "invariant": "^2.1.0",
+    "lodash.range": "^3.0.1",
     "node-uuid": "^1.4.3",
     "panels-blocks": "^0.3.1",
     "panels-runtime": "^0.3.0",
