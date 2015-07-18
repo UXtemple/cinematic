@@ -11,7 +11,7 @@ export default class VideoCard {
     return (
       <div>
         <h2 style={style.name}>{name}</h2>
-        <div>VIDEO GOES HERE</div>
+        <iframe src={`//player.vimeo.com/video/${videoId}`} style={{border: 0}} border={0} width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
       </div>
     );
   }
