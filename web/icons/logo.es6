@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 
-export default class Logo extends React.Component {
-
+export default class Logo {
   render() {
     const {height, width} = this.props;
     const fill = this.props.fill;
@@ -27,9 +26,9 @@ export default class Logo extends React.Component {
   }
 
   static propTypes = {
-    fill: React.PropTypes.string,
-    height: React.PropTypes.number,
-    width: React.PropTypes.number
+    fill: PropTypes.string,
+    height: PropTypes.number,
+    width: PropTypes.number
   }
 
   static defaultProps = {

@@ -1,8 +1,8 @@
-// import { actions as boxesActiveActions } from '../../../boxes-active';
 import { Action } from 'panels-blocks';
-import ArrowIcon from '../../icons/arrow';
-import MallorcaMap from '../../icons/mallorcamap';
-import React from 'react';
+import ArrowIcon from '../icons/arrow';
+import MallorcaMap from '../icons/mallorcamap';
+import projectShape from './shape';
+import React, { PropTypes } from 'react';
 
 export default class ProjectCard {
   render() {
@@ -18,6 +18,10 @@ export default class ProjectCard {
         <ArrowIcon style={style.icon} />
       </Action>
     );
+  }
+
+  static propTypes = {
+    project: projectShape
   }
 }
 

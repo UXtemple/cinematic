@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 
-export default class MallorcaMap extends React.Component {
-
+export default class MallorcaMap {
   render() {
     const {height, width} = this.props;
     const fill = this.props.fill;
@@ -648,9 +647,10 @@ export default class MallorcaMap extends React.Component {
   }
 
   static propTypes = {
-    fill: React.PropTypes.string,
-    height: React.PropTypes.number,
-    width: React.PropTypes.number
+    fill: PropTypes.string,
+    height: PropTypes.string,
+    style: PropTypes.object,
+    width: PropTypes.string
   }
 
   static defaultProps = {

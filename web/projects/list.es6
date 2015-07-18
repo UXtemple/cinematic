@@ -1,5 +1,5 @@
-import ProjectCard from '../card';
-import projectShape from '../shape';
+import Card from './card';
+import projectShape from './shape';
 import React, { PropTypes } from 'react';
 
 const style = {
@@ -8,7 +8,7 @@ const style = {
 
 export default class Projects {
   render() {
-    const projects = this.props.projects.map(({id}) => <ProjectCard key={id} id={id} />);
+    const projects = this.props.projects.map(project => <Card key={project.id} project={project} />);
 
     return <div style={style}>{projects}</div>;
   }
