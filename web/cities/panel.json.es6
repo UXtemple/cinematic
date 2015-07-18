@@ -1,7 +1,7 @@
 export default {
   "app": "10000cinematicflights.com.dev:3000",
   "appData": {
-    "backgroundImage": "../images/backgroundApp.jpg",
+    "backgroundImage": "http://10000cinematicflights.com.dev:3000/images/background-app.jpg",
     "backgroundSize": "cover"
   },
   "data": {},
