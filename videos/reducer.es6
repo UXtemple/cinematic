@@ -1,7 +1,7 @@
 import { ADD, REMOVE } from './action-types';
 import i from 'seamless-immutable';
 
-export default function citiesReducer(state = i({}), action) {
+export default function videosReducer(state = i({}), action) {
   switch (action.type) {
     case ADD: return add(state, action.payload);
     case REMOVE: return remove(state, action.payload);
@@ -10,11 +10,11 @@ export default function citiesReducer(state = i({}), action) {
 }
 
 // FIXME why do I need immutable again?
-function add(state, {id, name, projectId}) {
-  return i(state).merge({[id]: {id, name, projectId}});
+function add(state, {id, cityId, name, videoId}) {
+  return i(state).merge({[id]: {id, cityId, name, videoId}});
 }
 
 function remove(state, {id}) {
-  const { [id]: city, ...rest } = state;
+  const { [id]: video, ...rest } = state;
   return rest;
 }

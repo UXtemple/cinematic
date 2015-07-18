@@ -19,9 +19,7 @@ export default class CityCard {
 
     return (
       <Action href={id} style={actionStyle}>
-        // <div style={style.inner}>
-          <div style={style.name}>{name}</div>
-        // </div>
+        <div style={style.name}>{name}</div>
         <ArrowIcon style={style.icon} />
       </Action>
     );
@@ -54,10 +52,6 @@ const style = {
         marginRight: 20
       }
     }
-  },
-  inner: {
-    flex: 1,
-    marginLeft: 50
   },
   name: {
     fontSize: '2em',
