@@ -12,8 +12,8 @@ export default class VideoCard {
       <div style={style.entry}>
         <div>
           <div style={style.number}>{number}</div>
-          <iframe src={`//player.vimeo.com/video/${videoId}`} style={{border: 0}} border={0} width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-          <tags style={style.tags}/>
+          <iframe src={`//player.vimeo.com/video/${videoId}`} width='100%' height='200px' frameBorder='0' webkitAllowFullScreen mozAllowFullScreen allowFullScreen />
+          <tags style={style.tags} />
           <div style={style.download}>
             <div style={style.hd}/>
             <div style={style.preview}/>

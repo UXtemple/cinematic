@@ -1,27 +1,31 @@
 import { connect } from 'redux/react';
 import { listForCity } from '../../videos/getters';
 import { Panel } from 'panels-ui';
+import cityShape from '../cities/shape';
 import List from './list';
 import React, { PropTypes } from 'react';
 import videoShape from './shape';
 
-@connect((state, {cityId}) => ({videos: listForCity(state.videos, {cityId})}))
+@connect((state, {cityId}) => ({
+  city: state.cities[cityId],
+  videos: listForCity(state.videos, {cityId})
+}))
 export default class videos {
   render() {
-    const { name, videos } = this.props;
+    const { city, videos } = this.props;
 
     return (
       <Panel style={style.panel}>
-        <h1 style={style.title}>{name} </h1>
+        <h1 style={style.title}>{city.name}</h1>
         <List videos={videos} />
       </Panel>
     );
   }
 
   static propTypes = {
-    videos: PropTypes.arrayOf(videoShape).isRequired,
+    city: cityShape.isRequired,
     cityId: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired
+    videos: PropTypes.arrayOf(videoShape).isRequired
   }
 }
 
