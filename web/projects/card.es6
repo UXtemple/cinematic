@@ -27,7 +27,9 @@ export default class ProjectCard {
 
 const style = {
   action: {
-    active: {},
+    active: {
+      opacity: 0.9
+    },
     base: {
       alignItems: 'center',
       flex: 1,

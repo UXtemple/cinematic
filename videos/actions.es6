@@ -1,13 +1,13 @@
 import * as t from './action-types';
 import { v4 as uuid } from 'node-uuid';
 
-export function add({cityId, name, videoId}={}) {
+export function add({cityId, number, videoId}={}) {
   return {
     type: t.ADD,
     payload: {
       id: uuid(),
       cityId,
-      name,
+      number,
       videoId
     }
   };

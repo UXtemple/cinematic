@@ -4,6 +4,7 @@ import { Panel } from 'panels-ui';
 import cityShape from './shape';
 import List from './list';
 import React, { PropTypes } from 'react';
+import Status from './status';
 
 @connect((state, {projectId}) => ({cities: listForProject(state.cities, {projectId})}))
 export default class Cities {
@@ -12,6 +13,7 @@ export default class Cities {
 
     return (
       <Panel style={style}>
+        <Status />
         <List cities={cities} />
       </Panel>
     );
@@ -24,5 +26,6 @@ export default class Cities {
 }
 
 const style = {
+  backgroundColor: 'rgba(43,38,40, 0.85)',
   paddingBottom: 100
 };

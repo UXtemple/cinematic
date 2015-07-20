@@ -8,10 +8,11 @@ import videoShape from './shape';
 @connect((state, {cityId}) => ({videos: listForCity(state.videos, {cityId})}))
 export default class videos {
   render() {
-    const { videos } = this.props;
+    const { name, videos } = this.props;
 
     return (
-      <Panel style={style}>
+      <Panel style={style.panel}>
+        <h1 style={style.title}>{name} </h1>
         <List videos={videos} />
       </Panel>
     );
@@ -19,10 +20,15 @@ export default class videos {
 
   static propTypes = {
     videos: PropTypes.arrayOf(videoShape).isRequired,
-    cityId: PropTypes.string.isRequired
+    cityId: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired
   }
 }
 
 const style = {
-  paddingBottom: 100
+  panel: {
+    //backgroundColor: 'rgb(255,255,255)',
+    backgroundColor: 'rgba(255,255,255, 0.85)',
+    paddingBottom: 100
+  }
 };

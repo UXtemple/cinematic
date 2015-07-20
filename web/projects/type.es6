@@ -29,7 +29,7 @@ export default class Projects {
 const style = {
   logo: {
     alignSelf: 'center',
-    marginTop: 70
+    marginTop: 100
   },
   panel: {
     paddingBottom: 100

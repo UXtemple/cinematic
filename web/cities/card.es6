@@ -33,16 +33,21 @@ export default class CityCard {
 const style = {
   action: {
     active: {
-      opacity: 0.75
+      borderRadius: 10,
+      marginBottom: 20,
+      opacity: 0.9
     },
     base: {
       alignItems: 'center',
       alignSelf: 'center',
       backgroundSize: 'cover',
+      borderRadius: 10,
       color: '#f2f2f2',
       fontSize: '10px',
-      height: '150px',
-      width: '100%'
+      height: '200px',
+      justifyContent: 'space-between',
+      marginBottom: 20,
+      width: 320
     }
   },
   icon: {
@@ -54,6 +59,7 @@ const style = {
     }
   },
   name: {
-    fontSize: '2em',
+    fontSize: 20,
+    marginLeft: 30
   }
 };

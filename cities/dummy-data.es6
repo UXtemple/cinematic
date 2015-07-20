@@ -13,10 +13,5 @@ export default {
     id: '3',
     name: 'Palma de Mallorca',
     projectId: '1'
-  },
-  '4': {
-    id: '4',
-    name: 'Deia',
-    projectId: '1'
   }
 };
