@@ -10,10 +10,10 @@ import Status from './status';
 @connect(state => ({projects: list(state.projects)}))
 export default class Projects {
   render() {
-    const { projects } = this.props;
+    const { projects, width } = this.props;
 
     return (
-      <Panel style={style.panel}>
+      <Panel style={style.panel} width={width}>
         <Status />
         <List projects={projects} />
         <Logo style={style.logo} />
@@ -22,7 +22,8 @@ export default class Projects {
   }
 
   static propTypes = {
-    projects: PropTypes.arrayOf(projectShape).isRequired
+    projects: PropTypes.arrayOf(projectShape).isRequired,
+    width: PropTypes.number
   }
 }
 

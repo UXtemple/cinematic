@@ -28,7 +28,7 @@ export default {
     }, {
       test: /\.es6$/,
       loader: 'babel',
-      include: /panels\/[blocks|runtime|ui]/
+      include: /blocks|runtime|ui/
     }]
   }
 };

@@ -10,12 +10,12 @@ import videoShape from './shape';
   city: state.cities[cityId],
   videos: listForCity(state.videos, {cityId})
 }))
-export default class videos {
+export default class Videos {
   render() {
-    const { city, videos } = this.props;
+    const { city, videos, width } = this.props;
 
     return (
-      <Panel style={style.panel}>
+      <Panel style={style.panel} width={width}>
         <h1 style={style.title}>{city.name}</h1>
         <List videos={videos} />
       </Panel>
@@ -25,7 +25,8 @@ export default class videos {
   static propTypes = {
     city: cityShape.isRequired,
     cityId: PropTypes.string.isRequired,
-    videos: PropTypes.arrayOf(videoShape).isRequired
+    videos: PropTypes.arrayOf(videoShape).isRequired,
+    width: PropTypes.number
   }
 }
 

@@ -9,10 +9,10 @@ import Status from './status';
 @connect((state, {projectId}) => ({cities: listForProject(state.cities, {projectId})}))
 export default class Cities {
   render() {
-    const { cities } = this.props;
+    const { cities, width } = this.props;
 
     return (
-      <Panel style={style}>
+      <Panel style={style} width={width}>
         <Status />
         <List cities={cities} />
       </Panel>
@@ -21,7 +21,8 @@ export default class Cities {
 
   static propTypes = {
     cities: PropTypes.arrayOf(cityShape).isRequired,
-    projectId: PropTypes.string.isRequired
+    projectId: PropTypes.string.isRequired,
+    width: PropTypes.number
   }
 }
 
