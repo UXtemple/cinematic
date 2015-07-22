@@ -1,17 +1,17 @@
 export default {
   '1': {
     id: '1',
-    name: 'Santa Ponsa',
+    name: 'Andratx',
     projectId: '1'
   },
   '2': {
     id: '2',
-    name: 'Puerto Andratx',
+    name: 'Port Andratx',
     projectId: '1'
   },
   '3': {
     id: '3',
-    name: 'Palma de Mallorca',
+    name: 'Santa Ponsa',
     projectId: '1'
   }
 };
