@@ -37,7 +37,7 @@ const style = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
-    marginBottom: 10
+    marginBottom: 13
   },
   fourk: {
     backgroundColor: '#fbb079',
@@ -56,14 +56,13 @@ const style = {
   entry: {
     alignSelf: 'center',
     backgroundColor: 'white',
-    //border: '1px solid #6d6e71',
     borderRadius: 10,
     marginBottom: 20,
     width: '90%'
   },
   number: {
     fontSize: 14,
-    margin: '5px 0 5px 10px'
+    margin: '10px 0 10px 10px'
   },
   preview: {
     backgroundColor: '#a7a9ac',

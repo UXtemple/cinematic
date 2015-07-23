@@ -19,6 +19,7 @@ const style = {
     borderRadius: 20,
     height: 20,
     marginLeft: 5,
+    marginTop: 5,
     padding: '1px 10px 0 10px',
     textTransform: 'uppercase'
   },
@@ -26,6 +27,6 @@ const style = {
     alignItems: 'center',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    margin: '10px 10px 10px 5px'   
+    margin: '10px 10px 15px 5px'
   }
 }
