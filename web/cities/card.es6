@@ -53,8 +53,8 @@ const style = {
   icon: {
     base: {
       style: {
-        alignSelf: 'center',
-        marginRight: 20
+        alignSelf: 'center'
+        //marginRight: 40
       }
     }
   },

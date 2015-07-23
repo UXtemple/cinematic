@@ -16,8 +16,9 @@ export default class VideoCard {
           <Video id={videoId} />
           <Tags list={tags} />
           <div style={style.download}>
-            <div style={style.hd} />
             <div style={style.preview} />
+            <div style={style.hd} />
+            <div style={style.fourk} />
           </div>
         </div>
       </div>
@@ -38,12 +39,19 @@ const style = {
     justifyContent: 'center',
     marginBottom: 10
   },
+  fourk: {
+    backgroundColor: '#fbb079',
+    borderRadius: 5,
+    height: 40,
+    width: '30%'
+  },
   hd: {
     backgroundColor: '#53adb5',
-    borderRadius: 10,
+    borderRadius: 5,
     height: 40,
-    width: '45.5%',
-    marginRight: 10
+    width: '30%',
+    marginLeft: 5,
+    marginRight: 5
   },
   entry: {
     alignSelf: 'center',
@@ -51,7 +59,7 @@ const style = {
     //border: '1px solid #6d6e71',
     borderRadius: 10,
     marginBottom: 20,
-    width: '95%'
+    width: '90%'
   },
   number: {
     fontSize: 14,
@@ -59,9 +67,8 @@ const style = {
   },
   preview: {
     backgroundColor: '#a7a9ac',
-    borderRadius: 10,
-    //borderLeft: '1px solid #6d6e71',
+    borderRadius: 5,
     height: 40,
-    width: '45.5%'
+    width: '30%'
   }
 };

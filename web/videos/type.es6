@@ -16,7 +16,7 @@ export default class Videos {
 
     return (
       <Panel style={style.panel} width={width}>
-        <h1 style={style.title}>{city.name}</h1>
+        <div style={style.title}>{city.name}</div>
         <List videos={videos} />
       </Panel>
     );
@@ -33,7 +33,11 @@ export default class Videos {
 const style = {
   panel: {
     //backgroundColor: 'rgb(255,255,255)',
-    backgroundColor: 'rgba(255,255,255, 0.85)',
+    backgroundColor: 'rgba(255, 255,255,0.75)',
     paddingBottom: 100
+  },
+  title: {
+    fontSize: 25,
+    margin: '35px 0 35px 25px'
   }
 };

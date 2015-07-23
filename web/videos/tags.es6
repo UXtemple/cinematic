@@ -14,9 +14,18 @@ export default class Tags {
 
 const style = {
   item: {
-    marginLeft: 5
+    fontSize: 12,
+    backgroundColor: '#f2f2f2',
+    borderRadius: 20,
+    height: 20,
+    marginLeft: 5,
+    padding: '1px 10px 0 10px',
+    textTransform: 'uppercase'
   },
   list: {
-    flexDirection: 'row'
+    alignItems: 'center',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    margin: '10px 10px 10px 5px'   
   }
 }
