@@ -10,8 +10,8 @@ export default function videosReducer(state = i({}), action) {
 }
 
 // FIXME why do I need immutable again?
-function add(state, {id, cityId, number, videoId}) {
-  return i(state).merge({[id]: {id, cityId, number, videoId}});
+function add(state, {id, cityId, number, music, musicTitle, videoId}) {
+  return i(state).merge({[id]: {id, cityId, number, music, musicTitle, videoId}});
 }
 
 function remove(state, {id}) {

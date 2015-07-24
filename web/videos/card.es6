@@ -7,13 +7,17 @@ import Video from './video';
 
 export default class VideoCard {
   render() {
-    const { id, number, tags, videoId } = this.props.video;
+    const { id, number, music, musicTitle, tags, videoId } = this.props.video;
 
     return (
       <div style={style.entry}>
         <div>
           <div style={style.number}>{number}</div>
           <Video id={videoId} />
+          <div>
+            <div style={style.label}>MUSIC BY AUDIO JUNGLE</div>
+            <a href={music} style={style.link}>{musicTitle}</a>
+          </div>
           <Tags list={tags} />
           <div style={style.download}>
             <div style={style.preview} />
@@ -37,7 +41,7 @@ const style = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
-    marginBottom: 13
+    margin: '15px 0 13px 0'
   },
   fourk: {
     backgroundColor: '#fbb079',
@@ -59,6 +63,23 @@ const style = {
     borderRadius: 10,
     marginBottom: 20,
     width: '90%'
+  },
+  label: {
+    fontSize: 12,
+    marginLeft: 15,
+    marginTop: 10
+  },
+  link: {
+    //float: 'left',
+    fontSize: 12,
+    //border: '1px solid #bcbec0',
+    //borderRadius: 20,
+    //height: 20,
+    margin: '0 0 5px 15px',
+    //overflow: 'hidden',
+    //padding: '0 10px 0 10px',
+    textDecoration: 'none',
+    textTransform: 'uppercase'
   },
   number: {
     fontSize: 14,

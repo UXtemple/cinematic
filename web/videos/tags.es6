@@ -27,6 +27,6 @@ const style = {
     alignItems: 'center',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    margin: '10px 10px 15px 5px'
+    margin: '5px 10px 5px 5px'
   }
 }
