@@ -7,7 +7,7 @@ import Video from './video';
 
 export default class VideoCard {
   render() {
-    const { id, number, music, musicTitle, tags, videoId } = this.props.video;
+    const { id, hd, number, music, musicTitle, preview, tags, videoId } = this.props.video;
 
     return (
       <div style={style.entry}>
@@ -20,8 +20,8 @@ export default class VideoCard {
           </div>
           <Tags list={tags} />
           <div style={style.download}>
-            <div style={style.preview} />
-            <div style={style.hd} />
+            <a href={preview} style={style.preview}>Preview</a>
+            <a href={hd} style={style.hd}>HD</a>
             <div style={style.fourk} />
           </div>
         </div>
@@ -36,7 +36,6 @@ export default class VideoCard {
 
 const style = {
   download: {
-    //borderTop: '1px solid #6d6e71',
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'row',
@@ -46,13 +45,23 @@ const style = {
   fourk: {
     backgroundColor: '#fbb079',
     borderRadius: 5,
-    height: 40,
+    color: 'white',
+    fontWeight: 400,
+    fontSize: 14,
+    padding: '10px 0',
+    textAlign: 'center',
+    textDecoration: 'none',
     width: '30%'
   },
   hd: {
     backgroundColor: '#53adb5',
     borderRadius: 5,
-    height: 40,
+    color: 'white',
+    fontWeight: 400,
+    fontSize: 14,
+    padding: '10px 0',
+    textAlign: 'center',
+    textDecoration: 'none',
     width: '30%',
     marginLeft: 5,
     marginRight: 5
@@ -88,7 +97,12 @@ const style = {
   preview: {
     backgroundColor: '#a7a9ac',
     borderRadius: 5,
-    height: 40,
+    color: 'white',
+    fontWeight: 400,
+    fontSize: 14,
+    padding: '10px 0',
+    textAlign: 'center',
+    textDecoration: 'none',
     width: '30%'
   }
 };
