@@ -43,7 +43,7 @@ const style = {
     margin: '15px 0 13px 0'
   },
   fourk: {
-    backgroundColor: '#fbb079',
+    backgroundColor: 'rgb(255, 131, 0)',
     borderRadius: 5,
     color: 'white',
     fontWeight: 900,
@@ -54,7 +54,7 @@ const style = {
     width: '30%'
   },
   hd: {
-    backgroundColor: '#53adb5',
+    backgroundColor: '#1f79c8',
     borderRadius: 5,
     color: 'white',
     fontWeight: 900,
@@ -79,6 +79,7 @@ const style = {
     marginTop: 15
   },
   link: {
+    color: 'black',
     fontSize: 12,
     fontWeight: 900,
     margin: '3px 0 10px 15px',

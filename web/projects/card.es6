@@ -25,7 +25,7 @@ export default class ProjectCard {
 const style = {
   action: {
     active: {
-      opacity: 0.9
+      opacity: 0.95
     },
     base: {
       alignItems: 'center',

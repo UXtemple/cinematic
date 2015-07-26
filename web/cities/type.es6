@@ -12,9 +12,11 @@ export default class Cities {
     const { cities, width } = this.props;
 
     return (
-      <Panel style={style} width={width}>
+      <Panel style={style.panel} width={width}>
         <Status />
         <List cities={cities} />
+        <div style={style.license.headline}>Licence details</div>
+        <a href='https://creativecommons.org/licenses/by/2.0/' style={style.license.ref} target='_blank'>Pre-release videos under CC with Attribution 2.0</a>
       </Panel>
     );
   }
@@ -27,6 +29,24 @@ export default class Cities {
 }
 
 const style = {
-  backgroundColor: 'rgba(43,38,40, 0.85)',
-  paddingBottom: 100
+  panel: {
+    backgroundColor: 'rgba(68,74,88, 0.9)',
+    paddingBottom: 100
+  },
+  license: {
+    headline: {
+      alignSelf: 'center',
+      color: 'white',
+      fontSize: 12,
+      marginTop: 20
+    },
+    ref: {
+      alignSelf: 'center',
+      color: 'white',
+      fontSize: 12,
+      marginTop: 5,
+      textDecoration: 'none',
+      textTransform: 'uppercase'
+    }
+  }
 };

@@ -18,6 +18,8 @@ export default class Videos {
       <Panel style={style.panel} width={width}>
         <div style={style.title}>{city.name}</div>
         <List videos={videos} />
+        <div style={style.license.headline}>Licence details</div>
+        <a href='https://creativecommons.org/licenses/by/2.0/' style={style.license.ref} target='_blank'>Pre-release videos under CC with Attribution 2.0</a>
       </Panel>
     );
   }
@@ -35,6 +37,21 @@ const style = {
     //backgroundColor: 'rgb(255,255,255)',
     backgroundColor: 'rgba(255, 255,255,0.75)',
     paddingBottom: 100
+  },
+  license: {
+    headline: {
+      alignSelf: 'center',
+      fontSize: 12,
+      marginTop: 20
+    },
+    ref: {
+      alignSelf: 'center',
+      color: 'black',
+      fontSize: 12,
+      marginTop: 5,
+      textDecoration: 'none',
+      textTransform: 'uppercase'
+    }
   },
   title: {
     fontSize: 14,
