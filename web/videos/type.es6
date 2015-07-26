@@ -37,7 +37,10 @@ const style = {
     paddingBottom: 100
   },
   title: {
-    fontSize: 25,
-    margin: '35px 0 35px 25px'
+    fontSize: 14,
+    fontWeight: 400,
+    letterSpacing: 2,
+    margin: '35px 0 35px 25px',
+    textTransform: 'uppercase'
   }
 };

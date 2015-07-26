@@ -20,7 +20,6 @@ export default class CityCard {
     return (
       <Action href={id} style={actionStyle}>
         <div style={style.name}>{name}</div>
-        <ArrowIcon style={style.icon} />
       </Action>
     );
   }
@@ -43,23 +42,16 @@ const style = {
       backgroundSize: 'cover',
       borderRadius: 10,
       color: '#f2f2f2',
-      fontSize: '10px',
       height: '200px',
-      justifyContent: 'space-between',
+      justifyContent: 'center',
       marginBottom: 20,
       width: 320
     }
   },
-  icon: {
-    base: {
-      style: {
-        alignSelf: 'center'
-        //marginRight: 40
-      }
-    }
-  },
   name: {
-    fontSize: 20,
-    marginLeft: 30
+    fontSize: 14,
+    fontWeight: 400,
+    letterSpacing: 2,
+    textTransform: 'uppercase',
   }
 };

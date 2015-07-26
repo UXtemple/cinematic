@@ -15,14 +15,14 @@ export default class VideoCard {
           <div style={style.number}>{number}</div>
           <Video id={videoId} />
           <div>
-            <div style={style.label}>MUSIC BY AUDIO JUNGLE</div>
-            <a href={music} style={style.link}>{musicTitle}</a>
+            <div style={style.label}>Music by Audio Jungle</div>
+            <a href={music} style={style.link} target='_blank'>{musicTitle}</a>
           </div>
           <Tags list={tags} />
           <div style={style.download}>
             <a href={preview} style={style.preview}>Preview</a>
             <a href={hd} style={style.hd}>HD</a>
-            <div style={style.fourk} />
+            <div style={style.fourk}>4k</div>
           </div>
         </div>
       </div>
@@ -76,22 +76,16 @@ const style = {
   label: {
     fontSize: 12,
     marginLeft: 15,
-    marginTop: 10
+    marginTop: 15
   },
   link: {
-    //float: 'left',
     fontSize: 12,
-    //border: '1px solid #bcbec0',
-    //borderRadius: 20,
-    //height: 20,
-    margin: '0 0 5px 15px',
-    //overflow: 'hidden',
-    //padding: '0 10px 0 10px',
+    margin: '3px 0 10px 15px',
     textDecoration: 'none',
     textTransform: 'uppercase'
   },
   number: {
-    fontSize: 14,
+    fontSize: 12,
     margin: '10px 0 10px 10px'
   },
   preview: {
