@@ -35,7 +35,7 @@ export default class Videos {
 const style = {
   panel: {
     //backgroundColor: 'rgb(255,255,255)',
-    backgroundColor: 'rgba(192,171,122,0.9)',
+    backgroundColor: 'rgba(31,121,200,0.9)',
     paddingBottom: 100
   },
   license: {
