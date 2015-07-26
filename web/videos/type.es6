@@ -35,18 +35,19 @@ export default class Videos {
 const style = {
   panel: {
     //backgroundColor: 'rgb(255,255,255)',
-    backgroundColor: 'rgba(255, 255,255,0.75)',
+    backgroundColor: 'rgba(131,131,131,0.9)',
     paddingBottom: 100
   },
   license: {
     headline: {
       alignSelf: 'center',
+      color: 'white',
       fontSize: 12,
       marginTop: 20
     },
     ref: {
       alignSelf: 'center',
-      color: 'black',
+      color: 'white',
       fontSize: 12,
       marginTop: 5,
       textDecoration: 'none',
@@ -54,6 +55,7 @@ const style = {
     }
   },
   title: {
+    color: 'white',
     fontSize: 14,
     fontWeight: 900,
     letterSpacing: 1,
