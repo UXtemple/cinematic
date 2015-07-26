@@ -13,5 +13,10 @@ export default {
     id: '3',
     name: 'Santa Ponsa',
     projectId: '1'
+  },
+  '4': {
+    id: '4',
+    name: 'Costa den Blanes',
+    projectId: '1'
   }
 };

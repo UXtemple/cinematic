@@ -51,7 +51,7 @@ export default {
     music: 'http://audiojungle.net/item/inspiring-piano-bundle-/7986376',
     musicTitle: 'Inspiring Piano Bundle',
     sd: '',
-    tags: ['bay', 'boats', 'day', 'hills', 'houses', 'town', 'trees', 'Santa Ponsa', 'up'],
+    tags: ['bay', 'boats', 'Calvia', 'day', 'hills', 'houses', 'town', 'trees', 'Santa Ponsa', 'up'],
     videoId: '134137933'
   },
   '6': {
@@ -61,7 +61,7 @@ export default {
     number: 'Pre-release flight',
     music: 'http://audiojungle.net/item/modern-classical-music-pack/5293482',
     musicTitle: 'Modern Classical Music Pack',
-    tags: ['clif', 'down', 'people', 'Santa Ponsa', 'statue'],
+    tags: ['Calvia', 'clif', 'down', 'people', 'Santa Ponsa', 'statue'],
     sd: '',
     videoId: '134140411'
   },
@@ -73,7 +73,62 @@ export default {
     music: 'http://audiojungle.net/item/cinematic-inspirational-pack/11991504',
     musicTitle: 'Cinematic Inspirational Pack',
     sd: '',
-    tags: ['bay', 'cars', 'hills', 'houses', 'road', 'Santa Ponsa', 'sunset', 'town', 'trees', 'up'],
+    tags: ['bay', 'Calvia', 'cars', 'hills', 'houses', 'road', 'Santa Ponsa', 'sunset', 'town', 'trees', 'up'],
     videoId: '134143317'
+  },
+  '8': {
+    id: '8',
+    cityId: '4',
+    hd: '',
+    number: 'Pre-release flight',
+    music: 'http://audiojungle.net/item/disco-funky-guitar-grooves-pack/11687008',
+    musicTitle: 'Disco Funky Guitar Grooves Pack',
+    sd: '',
+    tags: ['Calvia', 'cars', 'Costa den Blanes', 'hills', 'houses', 'pool', 'road', 'sunset', 'town', 'trees', 'down'],
+    videoId: '134548406'
+  },
+  '9': {
+    id: '9',
+    cityId: '4',
+    hd: '',
+    number: 'Pre-release flight',
+    music: 'http://audiojungle.net/item/funky-vintage-pack/11995657',
+    musicTitle: 'Funky Vintage Pack',
+    sd: '',
+    tags: ['bay', 'Calvia', 'cars', 'Costa den Blanes', 'hills', 'houses', 'Palmanova', 'road', 'sunset', 'town', 'trees', 'forward'],
+    videoId: '134550256'
+  },
+  '10': {
+    id: '10',
+    cityId: '4',
+    hd: '',
+    number: 'Pre-release flight',
+    music: 'http://audiojungle.net/item/summer-inspiring-pack/11949821?utm_source=sharetw',
+    musicTitle: 'Summer Inspiring Pack',
+    sd: '',
+    tags: ['bay', 'Calvia', 'cars', 'Costa den Blanes', 'hills', 'houses', 'port', 'Portals Nous', 'road', 'sunset', 'town', 'trees', 'up'],
+    videoId: '134551713'
+  },
+  '11': {
+    id: '11',
+    cityId: '1',
+    hd: '',
+    number: 'Pre-release flight',
+    music: 'http://audiojungle.net/item/inspiring-piano-bundle-/7986376?utm_source=sharetw',
+    musicTitle: 'Inspiring Piano Bundle',
+    sd: '',
+    tags: ['Andratx', 'cars', 'cathedral', 'day', 'down', 'house', 'palm', 'road', 'town', 'trees', 'sunset'],
+    videoId: '134552300'
+  },
+  '12': {
+    id: '12',
+    cityId: '1',
+    hd: '',
+    number: 'Pre-release flight',
+    music: 'http://audiojungle.net/item/disco-funky-guitar-grooves-pack/11687008',
+    musicTitle: 'Disco Funky Guitar Grooves Pack',
+    sd: '',
+    tags: ['Andratx', 'day', 'down', 'kids', 'playground', 'road', 'town', 'trees'],
+    videoId: '134553476'
   }
 };
