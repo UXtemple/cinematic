@@ -17,10 +17,11 @@ const style = {
     fontSize: 12,
     backgroundColor: '#f2f2f2',
     borderRadius: 20,
+    color: '#606060',
     height: 20,
     marginLeft: 5,
     marginTop: 5,
-    padding: '1px 10px 0 10px',
+    padding: '5px 10px 0 10px',
     textTransform: 'uppercase'
   },
   list: {

@@ -41,9 +41,9 @@ const style = {
     }
   },
   name: {
-    fontSize: 14,
-    fontWeight: 900,
-    letterSpacing: 1,
+    fontSize: 20,
+    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
+    //letterSpacing: 1,
     textTransform: 'uppercase'
   },
   main: {
@@ -56,7 +56,8 @@ const style = {
     width: 235
   },
   subtitle: {
-   fontSize: 14
+   fontSize: 14,
+   marginTop: 3
 //    fontWeight: 400,
   //  textTransform: 'uppercase'
   }

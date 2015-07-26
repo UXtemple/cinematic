@@ -44,7 +44,7 @@ const style = {
       alignSelf: 'center',
       color: 'white',
       fontSize: 12,
-      marginTop: 5,
+      marginTop: 10,
       textDecoration: 'none',
       textTransform: 'uppercase'
     }

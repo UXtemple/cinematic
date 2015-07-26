@@ -50,8 +50,8 @@ const style = {
   },
   name: {
     fontSize: 14,
-    fontWeight: 900,
-    letterSpacing: 1,
+    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
+    //letterSpacing: 1,
     textTransform: 'uppercase'
   }
 };

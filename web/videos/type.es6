@@ -49,16 +49,16 @@ const style = {
       alignSelf: 'center',
       color: 'white',
       fontSize: 12,
-      marginTop: 5,
+      marginTop: 10,
       textDecoration: 'none',
       textTransform: 'uppercase'
     }
   },
   title: {
     color: 'white',
-    fontSize: 14,
-    fontWeight: 900,
-    letterSpacing: 1,
+    fontSize: 20,
+    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
+    //letterSpacing: 1,
     margin: '35px 0 35px 25px',
     textTransform: 'uppercase'
   }

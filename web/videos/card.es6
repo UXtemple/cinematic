@@ -46,9 +46,9 @@ const style = {
     backgroundColor: 'rgb(255, 131, 0)',
     borderRadius: 5,
     color: 'white',
-    fontWeight: 900,
+    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
     fontSize: 14,
-    padding: '10px 0',
+    padding: '11px 0 10px 0',
     textAlign: 'center',
     textDecoration: 'none',
     width: '30%'
@@ -57,9 +57,9 @@ const style = {
     backgroundColor: '#1f79c8',
     borderRadius: 5,
     color: 'white',
-    fontWeight: 900,
+    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
     fontSize: 14,
-    padding: '10px 0',
+    padding: '11px 0 10px 0',
     textAlign: 'center',
     textDecoration: 'none',
     width: '30%',
@@ -74,19 +74,21 @@ const style = {
     width: '90%'
   },
   label: {
+    color: '#9b9b9b',
     fontSize: 12,
     marginLeft: 15,
-    marginTop: 15
+    marginTop: 20
   },
   link: {
     color: 'black',
     fontSize: 12,
     fontWeight: 900,
-    margin: '3px 0 10px 15px',
+    margin: '7px 0 10px 15px',
     textDecoration: 'none',
     textTransform: 'uppercase'
   },
   number: {
+    color: '#9b9b9b',
     fontSize: 12,
     margin: '10px 0 10px 10px'
   },
@@ -94,9 +96,9 @@ const style = {
     backgroundColor: '#a7a9ac',
     borderRadius: 5,
     color: 'white',
-    fontWeight: 900,
+    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
     fontSize: 14,
-    padding: '10px 0',
+    padding: '11px 0 10px 0',
     textAlign: 'center',
     textDecoration: 'none',
     width: '30%'

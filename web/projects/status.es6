@@ -24,7 +24,7 @@ const style = {
       fontSize: 14,
       height: '100%',
       left: 0,
-      padding: '20px 0',
+      padding: '24px 0',
       position: 'absolute',
       textAlign: 'center',
       top: 0,

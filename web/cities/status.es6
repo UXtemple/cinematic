@@ -35,9 +35,9 @@ const style = {
   },
   goal: {
     color: 'white',
-    fontSize: '0.75em',
-    fontWeight: 400,
-    marginLeft: '5px',
+    fontSize: 12,
+    marginLeft: 5,
+    marginBottom: 5,
     textTransform: 'uppercase'
   },
   global: {
@@ -45,14 +45,15 @@ const style = {
 	},
   flights: {
     color: 'white',
-    fontSize: '0.75em',
-    fontWeight: 400,
-    marginRight: '5px',
+    fontSize: 12,
+    marginRight: 5,
+    marginBottom: 5,
     textTransform: 'uppercase'
   },
   labels: {
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    marginTop: 5
   },
   progress: {
     backgroundColor: 'white',
@@ -76,7 +77,7 @@ const style = {
       fontSize: 14,
       height: '100%',
       left: 0,
-      padding: '20px 0',
+      padding: '24px 0',
       position: 'absolute',
       textAlign: 'center',
       top: 0,
