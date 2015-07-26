@@ -7,7 +7,7 @@ export default {
     music: 'http://audiojungle.net/item/cinematic-inspirational-pack/11991504',
     musicTitle: 'Cinematic Inspirational Pack',
     tags: ['Andratx', 'day', 'fields', 'summer', 'sunset', 'trees', 'up'],
-    preview: 'https://vimeo.com/134147346/download?t=1437758936&v=395451205&s=9bb7db939db766e0c1445845d02b90cf',
+    sd: 'https://vimeo.com/134147346/download?t=1437758936&v=395451205&s=9bb7db939db766e0c1445845d02b90cf',
     videoId: '134147346'
   },
   '2': {
@@ -18,7 +18,7 @@ export default {
     music: 'http://audiojungle.net/item/smooth-jazz-pack/11661131',
     musicTitle: 'Smooth Jazz Pack',
     tags: ['Andratx', 'bay', 'boats', 'day', 'houses', 'sunset', 'pan', 'port', 'town'],
-    preview: '',
+    sd: '',
     videoId: '134149259'
   },
   '3': {
@@ -28,7 +28,7 @@ export default {
     number: 'Pre-release flight',
     music: 'http://audiojungle.net/item/summer-inspiring-pack/11949821',
     musicTitle: 'Summer Inspiring Pack',
-    preview: '',
+    sd: '',
     tags: ['Andratx', 'bay', 'boats', 'day', 'down', 'port'],
     videoId: '134152958'
   },
@@ -39,7 +39,7 @@ export default {
     number: 'Pre-release flight',
     music: 'http://audiojungle.net/item/summer-inspiring-pack/11949821',
     musicTitle: 'Summer Inspiring Pack',
-    preview: '',
+    sd: '',
     tags: ['Andratx', 'bay', 'boats', 'day', 'houses', 'sunset', 'pan', 'port', 'town', 'slide'],
     videoId: '134154501'
   },
@@ -50,7 +50,7 @@ export default {
     number: 'Pre-release flight',
     music: 'http://audiojungle.net/item/inspiring-piano-bundle-/7986376',
     musicTitle: 'Inspiring Piano Bundle',
-    preview: '',
+    sd: '',
     tags: ['bay', 'boats', 'day', 'hills', 'houses', 'town', 'trees', 'Santa Ponsa', 'up'],
     videoId: '134137933'
   },
@@ -62,6 +62,7 @@ export default {
     music: 'http://audiojungle.net/item/modern-classical-music-pack/5293482',
     musicTitle: 'Modern Classical Music Pack',
     tags: ['clif', 'down', 'people', 'Santa Ponsa', 'statue'],
+    sd: '',
     videoId: '134140411'
   },
   '7': {
@@ -71,7 +72,7 @@ export default {
     number: 'Pre-release flight',
     music: 'http://audiojungle.net/item/cinematic-inspirational-pack/11991504',
     musicTitle: 'Cinematic Inspirational Pack',
-    preview: '',
+    sd: '',
     tags: ['bay', 'cars', 'hills', 'houses', 'road', 'Santa Ponsa', 'sunset', 'town', 'trees', 'up'],
     videoId: '134143317'
   }

@@ -38,8 +38,8 @@ const style = {
   },
   title: {
     fontSize: 14,
-    fontWeight: 400,
-    letterSpacing: 2,
+    fontWeight: 900,
+    letterSpacing: 1,
     margin: '35px 0 35px 25px',
     textTransform: 'uppercase'
   }

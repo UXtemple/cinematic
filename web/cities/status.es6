@@ -73,6 +73,7 @@ const style = {
       margin: '20px 0 10px 0'
     },
     text: {
+      fontSize: 14,
       height: '100%',
       left: 0,
       padding: '20px 0',

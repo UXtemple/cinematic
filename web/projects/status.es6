@@ -21,6 +21,7 @@ const style = {
       margin: '80px 0 20px 0'
     },
     text: {
+      fontSize: 14,
       height: '100%',
       left: 0,
       padding: '20px 0',

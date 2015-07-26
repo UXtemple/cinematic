@@ -50,8 +50,8 @@ const style = {
   },
   name: {
     fontSize: 14,
-    fontWeight: 400,
-    letterSpacing: 2,
-    textTransform: 'uppercase',
+    fontWeight: 900,
+    letterSpacing: 1,
+    textTransform: 'uppercase'
   }
 };

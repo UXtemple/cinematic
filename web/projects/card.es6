@@ -10,12 +10,9 @@ export default class ProjectCard {
 
     return (
       <Action href={id} style={style.action}>
-        <div style={style.inner}>
-          <MallorcaMap style={style.map} />
-          <div style={style.name}>{name}</div>
-          <div style={style.subtitle}>{subtitle}</div>
-        </div>
-        <ArrowIcon style={style.icon} />
+        <MallorcaMap style={style.map} />
+        <div style={style.name}>{name}</div>
+        <div style={style.subtitle}>{subtitle}</div>
       </Action>
     );
   }
@@ -33,41 +30,33 @@ const style = {
     base: {
       alignItems: 'center',
       flex: 1,
+      flexDirection: 'column',
       alignSelf: 'center',
       backgroundColor: 'rgba(255, 131, 0, 0.85)',
       borderRadius: 170,
       color: '#f2f2f2',
       height: 320,
-      //justifyContent: 'center',
+      justifyContent: 'center',
       width: 320
     }
   },
-  icon: {
-    alignSelf: 'center',
-    marginRight: 20
-  },
-  inner: {
-    alignItems: 'center',
-    flexDirection: 'column',
-    flex: 1,
-    marginLeft: 50
-  },
   name: {
-    fontSize: '2em',
+    fontSize: 14,
+    fontWeight: 900,
+    letterSpacing: 1,
+    textTransform: 'uppercase'
   },
   main: {
     alignItems: 'center',
     justifyContent: 'center',
-    // marginLeft: '60px',
-    // marginRight: '10px',
     flex: 1
   },
   map: {
-    //height: 100,
-    width: 200
+    marginBottom: 15,
+    width: 235
   },
   subtitle: {
-   // fontSize: '0.65em',
+   fontSize: 14
 //    fontWeight: 400,
   //  textTransform: 'uppercase'
   }
