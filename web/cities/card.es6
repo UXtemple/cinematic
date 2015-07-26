@@ -44,6 +44,7 @@ const style = {
       color: '#f2f2f2',
       height: '200px',
       justifyContent: 'center',
+      paddingTop: 10,
       marginBottom: 20,
       width: 320
     }
