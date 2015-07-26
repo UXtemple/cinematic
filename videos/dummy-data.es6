@@ -84,7 +84,7 @@ export default {
     music: 'http://audiojungle.net/item/disco-funky-guitar-grooves-pack/11687008',
     musicTitle: 'Disco Funky Guitar Grooves Pack',
     sd: '',
-    tags: ['Calvia', 'cars', 'Costa den Blanes', 'hills', 'houses', 'pool', 'road', 'sunset', 'town', 'trees', 'down'],
+    tags: ['Calvia', 'cars', 'Costa d\'\en Blanes', 'hills', 'houses', 'pool', 'road', 'sunset', 'town', 'trees', 'down'],
     videoId: '134548406'
   },
   '9': {
@@ -95,7 +95,7 @@ export default {
     music: 'http://audiojungle.net/item/funky-vintage-pack/11995657',
     musicTitle: 'Funky Vintage Pack',
     sd: '',
-    tags: ['bay', 'Calvia', 'cars', 'Costa den Blanes', 'hills', 'houses', 'Palmanova', 'road', 'sunset', 'town', 'trees', 'forward'],
+    tags: ['bay', 'Calvia', 'cars', 'Costa d\'\en Blanes', 'hills', 'houses', 'Palmanova', 'road', 'sunset', 'town', 'trees', 'forward'],
     videoId: '134550256'
   },
   '10': {
@@ -106,7 +106,7 @@ export default {
     music: 'http://audiojungle.net/item/summer-inspiring-pack/11949821?utm_source=sharetw',
     musicTitle: 'Summer Inspiring Pack',
     sd: '',
-    tags: ['bay', 'Calvia', 'cars', 'Costa den Blanes', 'hills', 'houses', 'port', 'Portals Nous', 'road', 'sunset', 'town', 'trees', 'up'],
+    tags: ['bay', 'Calvia', 'cars', 'Costa d\'\en Blanes', 'hills', 'houses', 'port', 'Portals Nous', 'road', 'sunset', 'town', 'trees', 'up'],
     videoId: '134551713'
   },
   '11': {

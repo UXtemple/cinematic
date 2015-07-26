@@ -16,7 +16,7 @@ export default {
   },
   '4': {
     id: '4',
-    name: 'Costa den Blanes',
+    name: 'Costa d\'\en Blanes',
     projectId: '1'
   }
 };
