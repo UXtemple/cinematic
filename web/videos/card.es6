@@ -22,7 +22,7 @@ export default class VideoCard {
           <div style={style.download}>
             <a href={sd} style={style.sd}>SD</a>
             <a href={hd} style={style.hd}>HD</a>
-            <div style={style.fourk}>4K</div>
+            <Action href='http://4k.10000cinematicflights.com.dev:3000/' style={style.fourk}>4K</Action>
           </div>
         </div>
       </div>
@@ -43,15 +43,17 @@ const style = {
     margin: '15px 0 13px 0'
   },
   fourk: {
-    backgroundColor: 'rgb(255, 131, 0)',
-    borderRadius: 5,
-    color: 'white',
-    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
-    fontSize: 14,
-    padding: '11px 0 10px 0',
-    textAlign: 'center',
-    textDecoration: 'none',
-    width: '30%'
+    base: {
+      backgroundColor: 'rgb(255, 131, 0)',
+      borderRadius: 5,
+      color: 'white',
+      fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
+      fontSize: 14,
+      padding: '11px 0 10px 0',
+      textAlign: 'center',
+      textDecoration: 'none',
+      width: '30%'
+    }
   },
   hd: {
     backgroundColor: '#1f79c8',
