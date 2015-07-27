@@ -1,5 +1,4 @@
 import { Action } from 'panels-blocks';
-import ArrowIcon from '../icons/arrow';
 import React from 'react';
 import Tags from './tags';
 import videoShape from './shape';
@@ -43,14 +42,17 @@ const style = {
     margin: '15px 0 13px 0'
   },
   fourk: {
+    active: {
+      backgroundColor: 'rgba(255, 131, 0, 0.9)'
+    },
     base: {
       backgroundColor: 'rgb(255, 131, 0)',
       borderRadius: 5,
       color: 'white',
       fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
       fontSize: 14,
+      justifyContent: 'center',
       padding: '11px 0 10px 0',
-      textAlign: 'center',
       textDecoration: 'none',
       width: '30%'
     }
