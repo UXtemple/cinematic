@@ -17,9 +17,3 @@ export default class Cities {
 const style = {
   width: '100%'
 };
-
-// [{name: 'andratx'}, 
-// {name: 'port andratx'}, 
-// {name: 'santa ponsa'}, 
-// {name: 'costa d\'\en blanes'}].sort(function (a,b) { 
-// 	return a.name < b.name ? -1 : (a.name > b.name ? 1 : 0) });
