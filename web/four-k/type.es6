@@ -13,9 +13,9 @@ export default class FourK {
           <iframe src={`//player.vimeo.com/video/134550256`} width='100%' height='180px'
             frameBorder='0' webkitAllowFullScreen mozAllowFullScreen allowFullScreen />
         </div>
-        <div style={style.subtitle}>We can make everyone fall in love with Mallorca 
-          but we need your support to deliver the highest video quality possible!</div>
-        <a href='' style={style.button} target='_blank'>Support us now, claim great rewards!</a>
+        <div style={style.subtitle}>We can make everyone fall in love with Mallorca! 
+          Today, we need Your support! In return we give you great reward packages.</div>
+        <a href='' style={style.button} target='_blank'>Show me my rewards</a>
         <Logo style={style.logo} />
       </Panel>
     );
@@ -25,6 +25,7 @@ export default class FourK {
 const style = {
   button: {
     alignSelf: 'center',
+    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
     fontSize: 14,
     backgroundColor: 'white',
     borderRadius: 20,
