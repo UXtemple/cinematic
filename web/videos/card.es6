@@ -1,5 +1,5 @@
 import { Action } from 'panels-blocks';
-import React from 'react';
+import React, { PropTypes } from 'react';
 import Tags from './tags';
 import videoShape from './shape';
 import Video from './video';
@@ -7,12 +7,13 @@ import Video from './video';
 export default class VideoCard {
   render() {
     const { id, hd, number, music, musicTitle, sd, tags, videoId } = this.props.video;
+    const videoHeight = this.props.width / 2;
 
     return (
       <div style={style.entry}>
         <div>
           <div style={style.number}>{number}</div>
-          <Video id={videoId} />
+          <Video id={videoId} height={videoHeight} />
           <div>
             <div style={style.label}>Music by Audio Jungle</div>
             <a href={music} style={style.link} target='_blank'>{musicTitle}</a>
@@ -29,7 +30,8 @@ export default class VideoCard {
   }
 
   static propTypes = {
-    video: videoShape.isRequired
+    video: videoShape.isRequired,
+    width: PropTypes.number
   }
 }
 

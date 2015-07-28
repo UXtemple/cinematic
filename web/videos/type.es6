@@ -17,7 +17,7 @@ export default class Videos {
     return (
       <Panel style={style.panel} width={width}>
         <div style={style.title}>{city.name}</div>
-        <List videos={videos} />
+        <List videos={videos} width={width} />
         <div style={style.license.headline}>Licence details</div>
         <a href='https://creativecommons.org/licenses/by/2.0/' style={style.license.ref} target='_blank'>Pre-release videos under CC with Attribution 2.0</a>
       </Panel>
