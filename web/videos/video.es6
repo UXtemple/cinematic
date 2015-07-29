@@ -34,6 +34,7 @@ const style = {
     left: 0
   },
   loader: {
+    color: '#a5a7aa',
     justifyContent: 'center',
     left: 0,
     position: 'absolute',
