@@ -15,7 +15,7 @@ export default class FourK {
         </div>
         <div style={style.subtitle}>We can make everyone fall in love with Mallorca! 
           Today, we need Your support! In return we give you great reward packages.</div>
-        <a href='' style={style.button} target='_blank'>Show me my rewards</a>
+        <a href='' style={style.button} target='_blank'>List of rewards</a>
         <Logo style={style.logo} />
       </Panel>
     );

@@ -6,13 +6,12 @@ import React, { PropTypes } from 'react';
 
 export default class ProjectCard {
   render() {
-    const { id, name, subtitle } = this.props.project;
+    const { id, name } = this.props.project;
 
     return (
       <Action href={id} style={style.action}>
         <MallorcaMap style={style.map} />
         <div style={style.name}>{name}</div>
-        <div style={style.subtitle}>{subtitle}</div>
       </Action>
     );
   }
@@ -40,12 +39,6 @@ const style = {
       width: 320
     }
   },
-  name: {
-    fontSize: 20,
-    fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
-    //letterSpacing: 1,
-    textTransform: 'uppercase'
-  },
   main: {
     alignItems: 'center',
     justifyContent: 'center',
@@ -55,10 +48,12 @@ const style = {
     marginBottom: 15,
     width: 235
   },
-  subtitle: {
+  name: {
+   backgroundColor: 'white',
+   borderRadius: 20,
+   color: 'rgb(255, 131, 0)',
    fontSize: 14,
-   marginTop: 3
-//    fontWeight: 400,
-  //  textTransform: 'uppercase'
+   padding: 14
+   //textTransform: 'uppercase'
   }
 }

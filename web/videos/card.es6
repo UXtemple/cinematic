@@ -49,7 +49,7 @@ const style = {
     },
     base: {
       backgroundColor: 'rgb(255, 131, 0)',
-      borderRadius: 5,
+      borderRadius: 20,
       color: 'white',
       fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
       fontSize: 14,
@@ -61,7 +61,7 @@ const style = {
   },
   hd: {
     backgroundColor: '#1f79c8',
-    borderRadius: 5,
+    borderRadius: 20,
     color: 'white',
     fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
     fontSize: 14,
@@ -100,7 +100,7 @@ const style = {
   },
   sd: {
     backgroundColor: '#a7a9ac',
-    borderRadius: 5,
+    borderRadius: 20,
     color: 'white',
     fontFamily: 'MSF__ProximaNovaSoft-BoldWeb',
     fontSize: 14,
